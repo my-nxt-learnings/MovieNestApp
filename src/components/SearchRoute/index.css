@@ -11,11 +11,26 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 20px;
+  width: 100vw;
+  height: auto;
 }
 
 .search-cards-body {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center; /* Ensure cards are centered horizontally */
+  align-items: center; /* Center cards vertically if needed */
+  width: 100%; /* Ensure cards take the full width of the container */
+  padding: 0 10px; /* Optional: to add some spacing on the sides */
+}
+
+@media screen and (max-width: 700px) {
+  .search-cards-body {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Ensure cards are centered horizontally */
+    justify-content: center; /* Center the content vertically */
+    padding: 0 10px; /* Add some side padding */
+  }
 }
