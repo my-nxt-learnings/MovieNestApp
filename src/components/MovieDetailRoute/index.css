@@ -1,0 +1,68 @@
+.movie-detail-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #66a5ad;
+}
+
+.rating-heart-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+}
+
+.details-heart-logo {
+  margin-right: 5px;
+  fill: rgb(233, 44, 44);
+  font-size: 30px;
+}
+
+.details-movie-rating {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.movie-details-image {
+  width: 97%;
+  border-radius: 20px;
+  height: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .movie-details-image {
+    height: 300px;
+  }
+}
+
+.details-card {
+  width: 97%;
+}
+
+.details-heading {
+  width: 50vw;
+  font-family: 'Roboto';
+}
+
+.details-description {
+  font-size: 25px;
+  height: 1%;
+}
+
+.head-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.release-date {
+  font-size: 20px;
+  font-style: italic;
+}

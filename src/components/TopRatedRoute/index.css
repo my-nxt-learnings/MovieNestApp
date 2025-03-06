@@ -1,0 +1,27 @@
+.top-body {
+  background-color: #89abe3;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.top-cards-body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .top-cards-body {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Ensure cards are centered horizontally */
+    justify-content: center; /* Center the content vertically */
+    padding: 0 10px; /* Add some side padding */
+  }
+}

@@ -1,0 +1,41 @@
+.single-page-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #89abe3;
+  padding: 20px;
+}
+
+.cast-card {
+  height: 280px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 10px;
+  background-color: #66a5ad;
+}
+
+.profile-image {
+  width: 90%;
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 7px;
+}
+
+.cast-name {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 20px;
+}
+
+.cast-cards-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

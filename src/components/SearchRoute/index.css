@@ -1,0 +1,21 @@
+.loader-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-body {
+  background-color: #89abe3;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.search-cards-body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,11 @@
+.failure-container {
+  display: felx;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-block {
+  width: 350px;
+  height: 156px;
+  gap: 32px;
+}

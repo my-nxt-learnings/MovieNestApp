@@ -1,0 +1,23 @@
+.pagination-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  align-self: center;
+}
+
+.control-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(14, 134, 118);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.page-no {
+  font-size: 15px;
+  font-weight: bold;
+}

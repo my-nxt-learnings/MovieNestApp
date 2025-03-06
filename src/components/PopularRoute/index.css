@@ -1,0 +1,49 @@
+/* Loader container styles */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #89abe3;
+}
+
+/* Body container styles */
+.popular-body {
+  background-color: #89abe3;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+  height: auto; /* Allows the height to grow based on content */
+}
+
+/* Cards container */
+.cards-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Ensure cards are centered horizontally */
+  align-items: center; /* Center cards vertically if needed */
+  width: 100%; /* Ensure cards take the full width of the container */
+  padding: 0 10px; /* Optional: to add some spacing on the sides */
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 700px) {
+  .cards-body {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Ensure cards are centered horizontally */
+    justify-content: center; /* Center the content vertically */
+    padding: 0 10px; /* Add some side padding */
+  }
+}
+
+/* Optional: For very small screens (e.g., below 500px) */
+@media screen and (max-width: 500px) {
+  .cards-body {
+    padding: 0 10px; /* Add padding on both sides */
+  }
+}

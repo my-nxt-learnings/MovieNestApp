@@ -1,0 +1,132 @@
+.poster-size {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+}
+.movie:hover {
+  box-shadow: 3px 0px 15px 6px rgba(179, 177, 177, 0.1);
+}
+@media screen and (max-width: 1200px) {
+  .movie {
+    flex-grow: 1;
+  }
+}
+
+.view-details {
+  position: relative;
+  bottom: 0px;
+  align-self: stretch;
+  background-color: #8b1c15;
+  border: none;
+  height: 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+@media screen and (max-width: 425px) {
+  .view-details {
+    align-self: center;
+  }
+}
+.view-details:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.movie-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 3px 3px 5px;
+  background-color: rgb(66, 130, 190);
+}
+
+@media screen and (max-width: 600px) {
+  .movie-card-container {
+    width: 250px;
+    align-self: center;
+  }
+  .movie-card-image {
+    height: 100px;
+  }
+  .views-visit {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-rating {
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+
+  .movie-title {
+    text-align: center;
+  }
+  .view-button {
+    margin-bottom: 10px;
+  }
+}
+
+.title-rating {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5px;
+}
+
+.movie-card-image {
+  height: 250px;
+  width: 96%;
+  border-radius: 10px;
+}
+
+.views-visit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 90%;
+}
+
+.movie-title {
+  font-size: 20px;
+  height: 30px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.view-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(18, 180, 180);
+  border-radius: 10px;
+}
+.rating-heart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.heart-logo {
+  margin-right: 5px;
+  fill: rgb(233, 44, 44);
+}
